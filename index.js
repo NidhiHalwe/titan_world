@@ -1,4 +1,9 @@
 function evenCheck(num){
-
+    if(num%2==0){
+        return true;
+    }else{
+        return false;
+    }
+    
 }
-evenCheck(12);
+console.log(evenCheck(2));
