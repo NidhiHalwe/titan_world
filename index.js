@@ -1,4 +1,16 @@
 function evenCheck(num){
+if(num%2==0){
+    return true;
+}else{
+    return false;
+}
 
 }
-evenCheck(12);
+
+if(evenCheck(15)==true){
+console.log("Its is even");
+}
+else{
+    console.log("Odd");
+}
+
